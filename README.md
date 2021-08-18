@@ -1,4 +1,4 @@
-# hng-frontend-portfolio
+# hng-backend-portfolio
 
 ![HNG PORTFOLIO](preview.png?raw=true "HNG PORTFOLIO")
 
@@ -8,7 +8,7 @@
 <a href="https://hng-eportfolio.herokuapp.com/">LIVE SITE</a>
 
 ## Description
-The solution to question two can be found in `/name.py` <br/>
+The solution to task two can be found in `/name.py` <br/>
 
 The logos can be found in <br/>
 `core/static/core/img/zuri-log-full.svg ` <br/>
