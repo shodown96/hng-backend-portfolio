@@ -1,0 +1,164 @@
+{% load static %}
+{% load widget_tweaks %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Elijah Soladoye | Fullstack Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="{% static 'core/bootstrap/css/style.css' %}">
+    <link rel="shortcut icon" href="{% static 'core/img/hng_logo.png' %}" type="image/x-icon">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="splash">
+        <img src="{% static 'core/img/hng_logo.png' %}" alt="" class="logo">
+        <img src="{% static 'core/img/zuri-logo-full.svg' %}" alt="" style="width: 200px;">
+    </div>
+
+    <h2 class="text-center text-white bg-transparent mb-0 pt-5 brand"><span class="" href="#">Elijah Soladoye</span>
+    </h2>
+    <div class="swiper-container mySwiper swiper-container-h">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-image: url({% static 'core/img/wall6.jpg' %});">
+                <div class="text-center text-white">
+                    <div class="py-5"></div>
+                    <h1 class="display-3">Hello, I'm Elijah Soladoye</h1 class="display-3">
+                    <div class="container">
+                        <p class="intro-text mx-5">
+                            I'm a Nigeria based Fullstack Django | ReactJS Developer. <br>
+                            Always learning how to build positively impacting, optimized and immersive stuff 🔥.
+                        </p>
+                        <ul class="list-unstyled social d-flex justify-content-evenly mx-auto px-10">
+                            <li class="mr-4"><a target="_blank" rel="noopener noreferrer"
+                                    href="https://web.facebook.com/elijah.soladoye/"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li class="mr-4"><a target="_blank" rel="noopener noreferrer"
+                                    href="https://www.linkedin.com/in/elijah-soladoye-2b99b11b5"><i
+                                        class="fa fa-linkedin"></i></a></li>
+                            </li>
+                            <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/shodown96/"><i
+                                        class="fa fa-github"></i></a></li>
+
+                            <li><a target="_blank" rel="noopener noreferrer"
+                                    href="https://twitter.com/ElijahSoladoye1/"><i class="fa fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="container text-white">
+                    <div class="row">
+                        <div class="col-lg-2 d-none d-lg-block mx-auto mb-5">
+                            <div class=" display_picture"></div>
+                        </div>
+                        <div class="col-lg-7 mx-auto mt-lg-5">
+                            <p>I'm a full-stack developer with over four years of experience.
+                                I build applications mainly with Python, Javascript, Django, and React,
+                                and I deploy to platforms like AWS, Firebase, and Heroku.
+                                I've also supported other developers and designers to work on both mobile and web apps.
+                                I believe I would be a great fit to contribute value to your team.
+                            </p>
+                            <ul class="skills">
+                                <div class="badge"><strong>Python</strong></div>
+                                <div class="badge"><strong>JS</strong></div>
+                                <div class="badge"><strong>Django</strong></div>
+                                <div class="badge"><strong>ReactJs</strong></div>
+                                <div class="badge"><strong>Git</strong></div>
+                                <div class="badge"><strong>Firebase</strong></div>
+                                <div class="badge"><strong>AWS</strong></div>
+                                <div class="badge"><strong>Heroku</strong></div>
+                            </ul>
+                            <div class="row text-left">
+                                <div class="col-lg-5">
+                                    <h4 class="mb-3">Contact</h4>
+                                    <ul class="list-unstyled">
+                                        <li><i class="fa fa-phone"></i> +234 909 345 5544</li>
+                                        <li><i class="fa fa-envelope"></i> elijahsoladoye@rocketmail.com</li>
+                                    </ul>
+
+                                </div>
+                                <div class="col-lg-4">
+                                    <a href="https://drive.google.com/file/d/1XMRXd7rHWIDzQHqsu_lqKwtwbB3bNie5/view?usp=sharing"
+                                        target="_blank" rel="noopener noreferrer">
+                                        <button class="download-button mt-lg-5"><i class="fa fa-download"></i> Download
+                                            Resume</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="container projects text-white">
+                    <h4 class="mb-3 text-center mt-4">Here are some of my projects</h4>
+                    <div class="swiper-container mySwiper2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide mx-auto"
+                                style="background-image:url({% static 'core/img/amazon.png' %});">
+                                <div>
+                                    <a href="https://clone-3f488.web.app/" class="text-white">
+                                        Amazon Clone
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide mx-auto"
+                                style="background-image:url({% static 'core/img/discord.png' %});">
+                                <div>
+                                    <a href="https://discord-clone-b6582.web.app/" class="text-white">
+                                        Discord Clone
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide mx-auto"
+                                style="background-image:url({% static 'core/img/ecommerce.png' %});">
+                                <div>
+                                    <a href="https://mikaelson96.herokuapp.com" class="text-white">
+                                        Ecommerce
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+
+                    </div>
+
+                    <div class="d-flex justify-content-center align-items center mt-5">
+                        <img src="{% static 'core/img/brand-logo.png' %}" alt="" style="width:280px !important">
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide text-white text-left">
+                <form action="#" method="POST" id="contactForm" class="container pt-4 px-5 max-30">
+                    {% for f in form %}
+                    <p>
+                        {{f|add_class:"form-control"}}
+                    </p>
+                    {% endfor %}
+                    {% csrf_token %}
+                    <button class="btn btn-glow btn-block submit-btn" type="submit" id="contactBtn">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="swiper-pagination-1"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+    <script src="{% static 'core/js/jquery.min.js' %}"></script>
+    <script src="{% static 'core/js/main.js' %}"></script>
+</body>
+
+</html>

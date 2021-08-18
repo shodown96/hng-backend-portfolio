@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("bootstrap.min.css");
+@import url("https://unpkg.com/swiper/swiper-bundle.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://unpkg.com/swiper/swiper-bundle.min.css");
+/* @import url("https://unpkg.com/aos@2.3.1/dist/aos.css"); */
+.brand {
+    font-family: "Pacifico", cursive !important;
+    text-transform: capitalize;
+}
+.pdf,
+.swiper-slide1 {
+    box-shadow: inset 0 0 0 2000px rgb(0 0 0 / 70%);
+}
+
+.social {
+    width: 300px !important;
+    font-size: 2rem;
+    transition: all 0.8s ease-in-out;
+}
+.social i {
+    color: gray;
+    transition: all 0.3s ease-in-out;
+}
+.social i:hover {
+    color: #f06000;
+}
+
+.display_picture {
+    background-image: url(../../img/IMG_3310.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.nav-link.active {
+    background-color: transparent !important;
+    color: #f06000 !important;
+}
+.download-button {
+    background: #444;
+    outline: none;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.brand {
+    font-size: 50px;
+    position: absolute;
+    display: block;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 20px;
+    z-index: 500;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+    color: #fff;
+}
+
+body {
+    background: #222;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    width: 100% !important;
+    padding-top: 200px !important;
+    background-position: center;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgb(0 0 0 / 70%);
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.swiper-pagination-1 {
+    position: absolute;
+    top: 150px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+}
+
+.swiper-pagination-1 .swiper-pagination-bullet {
+    padding: 5px 10px;
+    border-radius: 0;
+    width: auto;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff !important;
+    opacity: 1;
+    background-color: transparent !important;
+    z-index: 500;
+}
+
+.swiper-pagination-1 .swiper-pagination-bullet-active {
+    color: #f06000 !important;
+    background-color: transparent !important;
+}
+.swiper-pagination .swiper-pagination-bullet-active {
+    color: #f06000 !important;
+}
+
+.splash {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    z-index: 1050;
+    background-color: #000;
+    transition: all ease-in-out 0.8s;
+    opacity: 1;
+}
+.splash .logo {
+    transform: scale(1);
+    border: 10px solid white;
+    border-radius: 15px;
+    animation: pulse 1s infinite;
+    margin-bottom: 50px;
+}
+.splash.hide {
+    opacity: 0;
+    z-index: -1;
+}
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+}
+
+.fadeIn {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.badge {
+    padding: 10px;
+    background-color: #f06000;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.projects .swiper-slide {
+    width: 350px !important;
+}
+
+.projects .swiper-slide div {
+    margin-top: -120px;
+}
+
+@media (min-width: 480px) {
+    .social {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+@media (min-width: 480px) {
+    .download-button {
+        padding: 10px 20px;
+    }
+}
+
+.swiper-button-next, .swiper-button-prev{
+    color: #f06000 !important;
+}
+.swiper-button-disabled{
+    color: gray !important;
+}
+
+.swiper-button-previous{
+    color: #f06000 !important;
+    left:0px;
+    right: auto;
+}
+
+.swiper-button-next{
+    color: #f06000 !important;
+    right:0px;
+    left:auto;
+}
+
+.btn-glow{
+    background-color: #f06000;
+    color: #fff;
+    width: 100%;
+    transition: all 0.8s ease-in-out;
+}
+
+.max-30{
+    max-width: 600px;
+    transition: all 0.8s ease-in-out;
+}
+.swal-button{
+    background-color: #f06000;
+}

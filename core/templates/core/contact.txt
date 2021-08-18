@@ -1,0 +1,9 @@
+Name: {{name}}
+Email: {{email}}
+
+Message:
+{{message}}
+
+
+Best regards,
+HNG Porfolio.

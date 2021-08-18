@@ -1,0 +1,5 @@
+django
+gunicorn
+whitenoise
+django-widget-tweaks
+django-heroku
